@@ -1,0 +1,44 @@
+{
+  "name": "native-scroll-trigger",
+  "version": "1.0.0",
+  "description": "This lib allows you trigger Animations on scroll when Dom Elements appears and moves on screen",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "main": "./dist/native-scroll-trigger.umd.cjs",
+  "module": "./dist/native-scroll-trigger.es.js",
+  "types": "./dist/index.d.ts",
+  "directories": {
+    "test": "test"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/native-scroll-trigger.es.js",
+      "require": "./dist/native-scroll-trigger.umd.cjs"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build"
+  },
+  "keywords": [
+    "js",
+    "ts",
+    "scroll",
+    "animations",
+    "scroll",
+    "native",
+    "lightweight"
+  ],
+  "author": "louis LASSERRE",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.8.6",
+    "vite": "^4.4.11",
+    "vite-plugin-dts": "^3.6.0"
+  },
+  "dependencies": {
+    "typescript": "^5.2.2"
+  }
+}
